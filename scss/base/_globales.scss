@@ -32,6 +32,7 @@ a {
 img { width: 100%; }
 
 body {
+    background-color: #281e4e;
     font-size: 1.6rem;
     line-height: 1.5;
     font-family: $fuentePoppins;
@@ -51,6 +52,12 @@ h3 { font-size: 1.5rem; }
 
 .fondoDos{
     background-image: url(../../img/banner2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.fondoTres{
+    background-image: url(../../img/banner-presentacion.png);
     background-size: cover;
     background-repeat:no-repeat;
 }

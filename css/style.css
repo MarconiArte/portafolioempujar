@@ -19,6 +19,7 @@ img {
   width: 100%; }
 
 body {
+  background-color: #281e4e;
   font-size: 1.6rem;
   line-height: 1.5;
   font-family: "Poppins", sans-serif; }
@@ -42,6 +43,11 @@ h3 {
 
 .fondoDos {
   background-image: url(../../img/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fondoTres {
+  background-image: url(../../img/banner-presentacion.png);
   background-size: cover;
   background-repeat: no-repeat; }
 
@@ -99,7 +105,7 @@ header {
   place-content: center;
   text-align: center; }
   .presentacion-contenedor .presentacion {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     width: 50rem;
     color: #FFFFFF;
     padding: 1rem;
