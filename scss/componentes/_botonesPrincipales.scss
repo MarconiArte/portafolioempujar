@@ -1,0 +1,12 @@
+.contenido{
+    background-color: transparent;
+    margin-top: 3rem ;
+    height: 50rem;
+    .botones{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        flex-direction: row;
+        margin: 1rem;
+        }
+}

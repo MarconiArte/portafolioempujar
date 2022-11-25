@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+p {
+  font-size: 1.8rem; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    color: #000; }
+
+img {
+  width: 100%; }
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: "Poppins", sans-serif; }
+
+h1 {
+  font-size: 3rem; }
+
+h2 {
+  font-size: 2rem; }
+
+h3 {
+  font-size: 1.5rem; }
+
+.iconos {
+  width: 30px; }
+
+.fondoUno {
+  background-image: url(../../img/banner1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.fondoDos {
+  background-image: url(../../img/banner2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.btn {
+  background-color: #FFFFFF;
+  border: solid 1px #000;
+  border-radius: 2rem;
+  padding: 1rem;
+  max-width: 10rem; }
+  .btn:hover {
+    background-color: #bebebe;
+    color: #FFFFFF; }
+
+/*---------------SVG----------------*/
+.svg-icon {
+  width: 2em;
+  height: 2em; }
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #FFFFFF; }
+
+.svg-icon circle {
+  stroke: #FFFFFF;
+  stroke-width: 1; }
+
+header {
+  display: grid;
+  place-content: center; }
+  header nav {
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    align-items: center;
+    border: solid 1px #000;
+    border-radius: 2rem; }
+
+.contenido {
+  background-color: transparent;
+  margin-top: 3rem;
+  height: 50rem; }
+  .contenido .botones {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: row;
+    margin: 1rem; }
+
+.presentacion-contenedor {
+  display: grid;
+  place-content: center;
+  text-align: center; }
+  .presentacion-contenedor .presentacion {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 50rem;
+    color: #FFFFFF;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1rem; }

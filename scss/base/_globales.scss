@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+$primario:#0D1B2A;
+$secundario: #415A77;
+$tercero:#778DA9;
+$cuarto:#E0E1DD;
+$blanco:#FFFFFF;
+$negro:#000;
+$fondo:#1b263b;
+
+$fuentePoppins:'Poppins', sans-serif;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+p {font-size: 1.8rem;}
+
+a {
+    text-decoration: none;
+    &:hover {
+        color:$negro;
+    }
+}
+
+img { width: 100%; }
+
+body {
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-family: $fuentePoppins;
+}
+
+h1 { font-size: 3rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+.iconos { width: 30px; }
+
+.fondoUno{
+    background-image: url(../../img/banner1.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.fondoDos{
+    background-image: url(../../img/banner2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+
+.btn {
+    background-color: $blanco;
+    border:solid 1px $negro;
+    border-radius: 2rem;
+    padding: 1rem;
+    max-width: 10rem;
+    &:hover{
+        background-color: rgb(190, 190, 190);
+        color: $blanco;
+    }
+}
+/*---------------SVG----------------*/
+
+.svg-icon {
+    width: 2em;
+    height: 2em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: $blanco;
+  }
+  
+  .svg-icon circle {
+    stroke: $blanco;
+    stroke-width: 1;
+  }
